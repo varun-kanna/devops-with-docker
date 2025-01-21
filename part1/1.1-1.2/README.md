@@ -9,8 +9,9 @@
 -   Submit the output for docker ps -a which shows 2 stopped containers and one running.
 
 <details>
-<summary>Image</summary>
-![Screenshot](./images/1.1.png)
+<summary>Screenshot</summary>
+
+<img src="./images/1.1.png" alt="alt text" width="1000"/>
 </details>
 
 # Exercise 1.2: Cleanup
@@ -22,6 +23,7 @@
 -   Submit the output for docker ps -a and docker image ls
 
 <details>
-<summary>Image</summary>
-![Screenshot](./images/1.2.png)
+<summary>Screenshot</summary>
+
+<img src="./images/1.2.png" alt="alt text" width="1000"/>
 </details>
