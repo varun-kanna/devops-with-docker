@@ -4,4 +4,6 @@ RUN apt update && apt install -y curl
 
 COPY script.sh .
 
-CMD ["sh", "./script.sh"]
+ENTRYPOINT ["./script.sh"]
+
+CMD ["helsinki.fi"]
