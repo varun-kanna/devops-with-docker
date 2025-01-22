@@ -1,14 +1,22 @@
-# Exercise 1.11: Spring
+# Mandatory Exercise 1.12: Hello, frontend!
 
-Create a Dockerfile for an old Java Spring project that can be found from the course repository.
+A good developer creates well-written READMEs. Such that they can be used to create Dockerfiles with ease.
 
-The setup should be straightforward with the README instructions. Tips to get you started:
+Clone, fork or download the project from https://github.com/docker-hy/material-applications/tree/main/example-frontend.
 
-There are many options for running Java, you may use eg. amazoncorretto FROM amazoncorretto:_tag_ to get Java instead of installing it manually. Pick the tag by using the README and Docker Hub page.
+Create a Dockerfile for the project (example-frontend) and give a command so that the project runs in a Docker container with port 5000 exposed and published so when you start the container and navigate to http://localhost:5000 you will see message if you're successful.
 
-You've completed the exercise when you see a 'Success' message in your browser.
+-   note that the port 5000 is reserved in the more recent OSX versions (Monterey, Big Sur), so you have to use some other host port
+    Submit the Dockerfile.
 
-Submit the Dockerfile you used to run the container.
+As in other exercises, do not alter the code of the project
+
+TIPS:
+
+-   The project has install instructions in README.
+-   Note that the app starts to accept connections when "Accepting connections at http://localhost:5000" has been printed to the screen, this takes a few seconds
+-   You do not have to install anything new outside containers.
+-   The project might not work with too new Node.js versions
 
 <details>
 <summary>Commands</summary>
