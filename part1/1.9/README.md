@@ -11,8 +11,7 @@ Hint: read the note that was made just before this exercise!
 <details>
 <summary>Commands</summary>
 
-8 Must create `/logs/log.txt` on local machine first
-
+-   Must create `/logs/log.txt` on local machine first
 -   `docker run -v "${PWD}/logs/log.txt:/usr/src/app/text.log" devopsdockeruh/simple-web-service`
 -   Output: `Secret message is: 'You can find the source code here: https://github.com/docker-hy'`
 
