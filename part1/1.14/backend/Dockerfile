@@ -1,0 +1,18 @@
+FROM golang:1.16
+
+EXPOSE 8080
+
+WORKDIR /usr/src/app
+
+COPY  . .
+
+RUN go build
+
+RUN go test ./...
+
+# Setting the port
+ENV PORT=8080 \
+    # Allowing requests from the frontend
+    REQUEST_ORIGIN=http://localhost:5000
+
+CMD ["./server"]
