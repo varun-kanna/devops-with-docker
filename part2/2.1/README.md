@@ -11,6 +11,13 @@ Submit the docker-compose.yml, and make sure that it works simply by running `do
 <details>
 <summary>Commands</summary>
 
--
+-   `docker compose run simple-web-service`
+
+</details>
+
+<details>
+<summary>Screenshots</summary>
+
+<img src="./images/2.1.png" alt="alt text" width="1000"/>
 
 </details>
