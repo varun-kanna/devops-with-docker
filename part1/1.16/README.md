@@ -18,6 +18,6 @@ Submit the Dockerfile, a brief description of what you did, and a link to the ru
 
 -   Deployed app to fly.io
 -   Selected my repo and let fly.io take care of deploying
--   The link to the app: https://nba-player-app.fly.dev/ (was running but stopped running as of now)
+-   The link to the app: https://nba-player-app.fly.dev/
 
 </details>
